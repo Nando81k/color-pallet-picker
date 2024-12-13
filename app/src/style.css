@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Titles */
+.title {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+label {
+  display: flex;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555555;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="color"] {
+  margin-top: 5px;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.color-picker label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.temperature {
+  margin: 15px 0;
+  font-size: 0.9rem;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2ceb45;
+}
+
+/* Palette List */
+#palette-list {
+  margin-top: 20px;
+}
+
+.palette-card {
+  background-color: #333333;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.palette-card h3 {
+  margin-bottom: 10px;
+}
+
+.palette-card .colors {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-block {
+  width: 30%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+/* Buttons inside palette cards */
+.palette-card button {
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.copy-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+/* Colors and copy button layout */
+.color-block-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.color-block {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black white white black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.copy-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  background-color: #596169;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #596169;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+span {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palette Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Palette Picker</h1>
+    <div class="form-container">
+      <h2>Add a Palette</h2>
+      <form id="palette-form">
+        <label>
+          Palette Title:
+          <input type="text" id="palette-title" required>
+        </label>
+        <div class="color-picker">
+          <label>
+            Color #1:
+            <input type="color" id="color1" value="#808080">
+          </label>
+          <label>
+            Color #2:
+            <input type="color" id="color2" value="#0000FF">
+          </label>
+          <label>
+            Color #3:
+            <input type="color" id="color3" value="#008000">
+          </label>
+        </div>
+        <div class="temperature">
+          <p>Temperature:</p>
+          <label>
+            <input type="radio" name="temperature" value="Warm"> Warm
+          </label>
+          <label>
+            <input type="radio" name="temperature" value="Neutral" checked> Neutral
+          </label>
+          <label>
+            <input type="radio" name="temperature" value="Cool"> Cool
+          </label>
+        </div>
+        <button type="submit">Create the palette</button>
+      </form>
+    </div>
+    <div id="palette-list">
+      <h2>Saved Palettes</h2>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
